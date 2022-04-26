@@ -3,7 +3,7 @@
 body {
   font-family: 'raleway';
   color: black;
-  background-color: white;
+  background-color: rgb(207, 214, 218);
   line-height: 1.4;
   width: 100%;
   margin-top: 6vw;
@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   
-  background-color: #edecee;
+  background-color: #aeaab3;
   
   z-index: 5;
 }
