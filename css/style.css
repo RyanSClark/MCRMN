@@ -46,7 +46,7 @@ img {
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
-  color: rgb(65, 28, 199);
+  color: rgb(22, 5, 83);
   height: 95px;
   overflow: visible;
 }
@@ -135,6 +135,19 @@ img {
   padding-top: 100px;
 }
 
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
 
 a:hover {
   margin-right: 2rem;
