@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
-  --primary-color: rgb(215, 224, 173);
+  --primary-color: rgb(107, 209, 240);
   --secondary-color: rgb(247, 244, 109);
-  --dark-color: #002240;
+  --dark-color: #1373c7;
   --light-color: #b8d7f1;
 }
 
@@ -17,7 +17,7 @@
 body {
   font-family: 'Lato', sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(190, 233, 233);
   line-height: 1.6;
   width: 100%;
 }
@@ -49,9 +49,7 @@ p {
   margin: 8px 0;
 }
 
-img {
-  width: 100%;
-}
+
 
 /* Navbar */
 .navbar {
@@ -176,6 +174,18 @@ a:hover {
   color: rgb(144, 145, 110);
   transform: translateY(-15px);
 }
+
+/* Cost */
+.cost-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.lead {
+  color: #002240;
+  font-weight: 120;
+}
+
 
 /* Footer */
 .footer .social a {
