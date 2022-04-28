@@ -181,6 +181,10 @@ a:hover {
   justify-self: flex-end;
 }
 
+.cost-sub-head img {
+  width: 300;
+}
+
 .lead {
   color: #002240;
   font-weight: 120;
