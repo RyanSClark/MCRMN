@@ -2,6 +2,9 @@
 
 :root {
   --primary-color: rgb(215, 224, 173);
+  --secondary-color: rgb(247, 244, 109);
+  --dark-color: #002240;
+  --light-color: #b8d7f1;
 }
 
 * {
@@ -17,6 +20,13 @@ body {
   background-color: white;
   line-height: 1.6;
   width: 100%;
+}
+
+h5 {
+  color: rgb(17, 17, 17);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
 }
 
 ul {
@@ -36,7 +46,7 @@ h2 {
 }
 
 p {
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 img {
@@ -149,9 +159,22 @@ img {
   font-weight: bold;
 }
 
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1/ span 4;
+  grid-row: 1 / span 4;
+}
+
+
 a:hover {
   margin-right: 2rem;
   color: rgb(144, 145, 110);
+  transform: translateY(-15px);
 }
 
 
