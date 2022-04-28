@@ -50,7 +50,7 @@
   .bg-dark, 
   .btn-dark {
       background-color: var(--dark-color);
-      color: #fff;
+      color: rgb(65, 27, 231);
   }
 
   .bg-primary a, 
@@ -65,7 +65,7 @@
   .bg-light, 
   .btn-light {
       background-color: var(--light-color);
-      color: #333;
+      color: rgb(147, 161, 109);
   }
 
   .text-center {
