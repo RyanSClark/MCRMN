@@ -51,7 +51,6 @@ p {
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
-;
   height: 90px;
   display: flex;
   justify-content: center;
@@ -112,10 +111,6 @@ p {
     height: 100%;
   }
   
-  .navbar_links:hover {
-    color: #13daa8;
-    transition: all 0.3s ease;
-  }
 
 /* Showcase */
 .showcase {
