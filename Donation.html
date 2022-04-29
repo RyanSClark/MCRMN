@@ -39,3 +39,89 @@
         </ul>
       </div> 
     </nav> 
+<!--Header-->
+    <section class="donation-head bg-primary py-2">
+      <div class="container grid"></div>
+        <div>
+          <h1 style="color: black;"><b>Welcome To The Donation Page</b></h1>
+          <p class="lead">
+            As you will know by now the expenses for both Cancer research and cancer treatment are too high to be sustainable from the hospitals that provide them. For this reason we kindly ask for a donation to help in the fight.
+          </p>
+        </div>
+    </section>
+        <br>
+    <main>
+      <div>
+        <div>
+        <h2><b>
+           For a more in detail breakdown of how the donated money will be used please click the link below
+        </h2></b>
+        <a href="https://www.cancerresearchuk.org/about-us/our-organisation/how-we-spend-your-money" style="color: rgb(12, 0, 184);"><b>
+          How your money is spent
+        </a></b>
+        </div>
+        <br>
+        <h3><i>
+          A brief rundown on what your money will be used for:
+        </i></h3> 
+
+        <li>Cancer Research</li>
+        <li>Shops</li>
+        <li>Fundraising events</li>
+        <li>Investments</li>
+        <li>Informing and influencing</li>
+
+      </div>
+    </main>
+        <div id="donate-button-container">
+          <center><div id="donate-button"></div></center>
+          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+          <script>
+          PayPal.Donation.Button({
+          env:'production',
+          hosted_button_id:'Z692R9P9YHGWQ',
+          image: {
+          src:'https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif',
+          alt:'Donate with PayPal button',
+          title:'PayPal - The safer, easier way to pay online!',
+          }
+          }).render('#donate-button');
+          
+          </script>
+          </div>
+   
+          <!--Footer-->
+<footer class="footer bg-dark py-5" id="End">
+  <div class="container grid grid-3">
+    <div> <h1>FightCancer
+    </h1>
+    <p>Copyright &copy; 2022</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Cost.html">Cost</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="Donation.html">Donation</a></li>
+      </ul>
+    </nav>
+    <div class="social">
+      <h1>Connect with us</h1>
+      <a href="https://github.com/" target="blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/i/flow/login" target="blank"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.instagram.com/?hl=en" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://en-gb.facebook.com/" target="blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://www.whatsapp.com/" target="blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+      <a href="https://discord.com/" target="blank"><i class="fab fa-discord fa-2x"></i></a>
+    </div>
+    <div>
+      <h4>Monthly Newsletter</h4>
+      <p>Stay up-to-date on treatment, research, clinical trials, doctors and survivors</p>
+      <button class="btn-"><a class="nav-link" href="#Register">Sign Up</a></button>
+    </div>
+  </div>
+</footer>
+
+
+    </section>
